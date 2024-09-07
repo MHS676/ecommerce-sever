@@ -300,9 +300,9 @@ async function run() {
 run().catch(console.dir);
 
 app.get('/', (req, res) => {
-  res.send('boss is sitting');
+  res.send('E-commerce is sitting');
 });
 
 app.listen(port, () => {
-  console.log(`Bistro boss is sitting on port ${port}`);
+  console.log(`E-commerce is sitting on port ${port}`);
 });
